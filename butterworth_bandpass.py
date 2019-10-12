@@ -11,9 +11,6 @@ from noise_signal import t, my_signal
 lowcut = 200
 highcut = 700
 
-sig = my_signal
-time = t
-
 def band_butter(sig, time, crit_low, crit_high, order):
     
     # sampling frequency
